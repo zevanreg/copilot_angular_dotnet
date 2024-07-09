@@ -16,14 +16,14 @@ Backend API provides this functionality:
 * As a result of user authentication, the JWT token should be returned
 
 Frontend web application must contain navigation bar with application name on the left side and *Register* and *Login* links on the right side. After user clicks *Register* link, the user registration page should be opened:
-![image](images/register.png)
+![image](images/Register.png)
 
 After clicking the *Create* button, the request to backend user registration method should be made. In case of any error, the error message should be shown on the bottom, of the screen. In case of success, success message should be shown for 5 seconds and all the fields should be cleared.
 
 After user clicks *Login* link in the navigation bar, the login page should be opened:
-![image](images/login.png)
+![image](images/Login.png)
 
 After clicking the *Login* button, the request to backend user authentication method should be made. In case of any error, the error message should be shown on the bottom, of the screen. In case of success, the home page should be opened. The home page could contain any content, like:
-![image](images/authenticatedhomepage.png)
+![image](images/AuthenticatedHomePage.png)
 
 The home page should be accessible to authenticated users only.
